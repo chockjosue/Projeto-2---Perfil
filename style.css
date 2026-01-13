@@ -31,6 +31,7 @@
 
 body{
     background:var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 
 }
 #container{
@@ -152,5 +153,16 @@ footer,.fot{
     align-items: center;
     font-size: 16px;
     padding: 24px 0;
+
+}
+
+@media(min-width:700px){
+
+    :root{
+        --br-url: url(imagnes/bg-desktop.jpg);
+    }
+    .light{
+        --br-url: url(imagens/br-desktop-light.jpg);
+    }
 
 }
